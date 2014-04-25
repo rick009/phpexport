@@ -1,0 +1,17 @@
+{
+    "name": "php/export",
+    "description": "PHP export CSV and EXECEL.",
+    "keywords": ["PHP","Excel","OpenXML","xlsx","xls"],
+    "homepage": "http://phpexcel.codeplex.com",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "LouXin",
+            "homepage": "https://github.com/rick009"
+        }
+    ],
+	"require": {
+		"phpoffice/phpexcel": "dev-develop"
+	}
+}
