@@ -7,11 +7,16 @@
     "license": "LGPL",
     "authors": [
         {
-            "name": "LouXin",
+            "name": "louxin",
             "homepage": "https://github.com/rick009"
         }
     ],
 	"require": {
 		"phpoffice/phpexcel": "dev-develop"
-	}
+	},
+    "autoload": {
+        "psr-0": {
+            "PHPExport": "lib/"
+        }
+    }
 }
